@@ -8,16 +8,21 @@ Name  : Thushar Thomas
 Branch: AI & DS
 '''
 
-def is_prime(num):  #Declaring a function
-    fact=1
-    for i in range(2,num+1):
-        if num%i==0:  #Checking for factors
+def is_prime(num): 
+    fact=2
+    if num==1:
+            fact=fact-1
+    for i in range(2,int(num/2)+1):
+        if num%i==0:
             fact=fact+1
     if (fact==2):
         return True
     else:
         return False
-n = int(input("Enter a number: "))  #Getting a number from user
+        
+n = int(input("Enter a number: ")) #Getting a number from user
+print("Is the given number prime?")
+
 is_prime(n)
 ```
 
