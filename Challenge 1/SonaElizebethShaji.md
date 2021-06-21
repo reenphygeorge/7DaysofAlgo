@@ -1,5 +1,5 @@
 # Code
-'''
+```
 num=int(input("Enter number:"))
 flag=True
 if(num>1):
@@ -9,7 +9,7 @@ if(num>1):
     print(bool("prime"))
 else:
   print(bool())
-'''
+```
 
 
 
