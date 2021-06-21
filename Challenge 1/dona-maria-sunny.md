@@ -34,4 +34,5 @@ Prime number is a number that is divisible only by itself and 1.
    * If the entered ```number``` is 2 then **logical true** is the output.
    * If the entered ```number``` is greater than 2 then that ```number``` is divided by numbers ranging from 2 to one less than the ```number```. 
    
-     If the ```number``` is divisible by any numbers in the range then **logical false** is the output. Else, if the ```number``` is not divisible _flag_ value is set to          1 and **logical true** is given as the output.
+     If the ```number``` when divided by any numbers in the range, the quotient is equal to zero then **logical false** is the output. Else,  _flag_ value is set to                1.
+     If the ```number``` when divided by any numbers in the range, the quotient is not equal to zero then **logical true** is given as the output.
