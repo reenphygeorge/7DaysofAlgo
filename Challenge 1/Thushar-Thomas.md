@@ -31,6 +31,6 @@ The program above checks whether the number from the user is a prime number or n
 <p>Prime number is a number that has only 2 factors. In this progam we check the number of factors for a number using for loop and if condition.
 If the number only has 2 factors, 'if else condition' returns 'True'. If not 'False'.
 
-    I avioded "(root num)+1" and "(num/2)+1" in the for loop instead of "num+1" because it results in returning '1' as a prime. But in real '1' is not prime.</p>
+    I avioded "num+1" in the for loop instead of "(num/2)+1" inorder to optimize the program.</p>
 
 <p>Thank you</p>
