@@ -26,12 +26,12 @@ print(is_prime(number))
 ```
 # Explanation
 Prime number is a number that is divisible only by itself and 1.
-1. User enters the number to be checked, for prime or not.
-2. Entered value is passed to the function and now the function **is_prime** is called.
+1. User enters the ```number``` to be checked, for prime or not.
+2. Entered ```number``` is passed to the function and now the function **is_prime** is called.
 3. Inside the function **is_prime** _flag_ value is set to 0 and the following happens :
-   * If the entered number is negative or less than 0 then **Invalid input! Enter a natural number** is the output.
-   * If the entered number is 1 then **1 is neither a prime nor a composite number** is the output.
-   * If the entered number is 2 then **logical true** is the output.
-   * If the entered number is greater than 2 then that ```number``` is divided by numbers ranging from 2 to one less than the ```number```. 
+   * If the entered ```number``` is negative or less than 0 then **Invalid input! Enter a natural number** is the output.
+   * If the entered ```number``` is 1 then **1 is neither a prime nor a composite number** is the output.
+   * If the entered ```number``` is 2 then **logical true** is the output.
+   * If the entered ```number``` is greater than 2 then that ```number``` is divided by numbers ranging from 2 to one less than the ```number```. 
    
      If the ```number``` is divisible by any numbers in the range then **logical false** is the output. Else, if the ```number``` is not divisible _flag_ value is set to          1 and **logical true** is given as the output.
