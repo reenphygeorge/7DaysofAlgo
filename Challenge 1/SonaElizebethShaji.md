@@ -1,9 +1,9 @@
 # Code
 ```
 num=int(input("Enter number:"))
-flag=True
+flag=False
 if(num>1):
-  if(num%2==0):
+  if((num//2)%2==0):
     print(bool())
   else:
     print(bool("prime"))
