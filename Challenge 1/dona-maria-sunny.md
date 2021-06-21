@@ -1,5 +1,7 @@
 ##### Challenge 1: Am I prime or not?
 ##### Problem Statement: Implement a pure function which takes a natural number as an input and returns logical true if the said number is a prime number and logical false otherwise.
+##### Author: Dona Maria Sunny 
+#####         S6, CSE
 
 # Code
 ```python
@@ -26,7 +28,7 @@ print(is_prime(number))
 # Explanation
 Prime number is a number that is divisible only by itself and 1.
 1. User enters the number to be checked, for prime or not.
-2. Entered value is passes to the function and now the function **is_prime** is called.
+2. Entered value is passed to the function and now the function **is_prime** is called.
 3. Inside the function **is_prime** _flag_ value is set to 0 and the following happens :
    * If the entered number is negative or less than 0 then **Invalid input! Enter a natural number** is the output.
    * If the entered number is 1 then **1 is neither a prime nor a composite number** is the output.
