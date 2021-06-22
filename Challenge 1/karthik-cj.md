@@ -1,5 +1,6 @@
 # Code
- 
+    
+    ```java
     import java.util.Scanner;
     public class Prime
     {
@@ -43,8 +44,8 @@
         }
             sc.close();
     }
-}
-
+    }
+    ```
 
 # Explanation
 
