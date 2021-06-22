@@ -23,9 +23,9 @@ Prime number is a number that is divisible only by itself and 1.
 1. User enters the ```number``` to be checked, for prime or not.
 2. Entered ```number``` is passed to the function and now the function **is_prime** is called.
 3. Inside the function **is_prime** the following happens :
-   * If the entered ```number``` is negative or less than 0 then **Invalid input! Enter a natural number** is the output.
+   * If the entered ```number``` is less than or equal to 0 then **Invalid input! Enter a natural number** is the output.
    * If the entered ```number``` is 1 then **1 is neither a prime nor a composite number** is the output.
    * If the entered ```number``` is 2 or greater than 2 then that ```number``` is divided by numbers ranging from 2 to ```number```//2. 
    
      If the ```number``` when divided by any numbers in the range, the remainder is equal to zero then **logical false** is the output. 
-     Else, loop is exited and hence the remainder of the ```number``` when divided by any numbers in the range is not equal to zero then **logical true** is given as the            output.
+     Else, if the loop is exited not returning **logical false** then **logical true** is given as the output.
