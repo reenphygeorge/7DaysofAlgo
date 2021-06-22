@@ -1,7 +1,7 @@
 # Code
 ```
 def is_prime(number):
-    count = 2
+    count = 1
     flag = 0
     if number < 1: 
         return ("Invalid!")
@@ -9,15 +9,12 @@ def is_prime(number):
         return ("Sorry!1 is not prime.")
     if number == 2:
         return(True)
-    while count < number:
-        if number%count == 0:
-            return(false)
-
+    while count < number/2:
+        if number%(count+1) == 0:
+            return(False)
         else:
             flag = 1
             count = count+1
-
-
     if flag == 1:
         return(True)
             
