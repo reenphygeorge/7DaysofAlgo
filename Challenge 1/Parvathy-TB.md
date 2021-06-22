@@ -15,6 +15,6 @@ is_prime(n)
 ```
 ## Explanation
 * Prime numbers are numbers that have only 2 factors: 1 and themselves.
-* The function `is_prime(n)` will check whether the number n is divisible by any of the numbers between 2 and (n-1)/2, 
+* The function `is_prime(n)` will check whether the number n is divisible by any of the numbers between 2 and (n/2)+1, 
   * if possible the function will print a `False`(which means n is not a prime number) 
   * if not possible the function will print `True`(which means n is a prime number)
