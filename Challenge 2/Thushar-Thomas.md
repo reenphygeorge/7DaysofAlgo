@@ -49,7 +49,7 @@ spell_it(n)
 # Explanation
 The program above gets a number from the user and converts it to words. 
 <p>In this progam we can convert upto a 4 digit number to words. 
-    This program also considers teen numbers
-    Also runs fine with given positions of 0 in the number
+    This program also considers teen numbers.
+    \nThis program has resolved the error with the position of 0 in the 4 digit number given below
       '0001', '0010', '0100'</p>
  Thank you
