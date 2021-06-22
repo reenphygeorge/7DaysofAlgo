@@ -26,6 +26,7 @@ if(isPrime(n)){
 
 return 0;
 }
+```
 
 
 # Explanation
