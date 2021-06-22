@@ -1,6 +1,7 @@
 # Code
     
     ```java
+    
     import java.util.Scanner;
     public class Prime
     {
