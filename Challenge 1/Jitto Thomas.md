@@ -1,5 +1,5 @@
 # CODE
-...python
+```python
 def is_prime(num):
 	flag=0
 	if num>1:
@@ -13,7 +13,7 @@ def is_prime(num):
 		return True
 number=int(input("ENTER ANY NATURAL NUMBER"))
 print(is_prime(number))
-...
+```
 
 # EXPLANATION
 	*Getting user input from the main function
