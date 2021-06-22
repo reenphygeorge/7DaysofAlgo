@@ -1,9 +1,8 @@
 # Code
-
-
-import java.util.Scanner;
-public class Prime
-{
+ 
+    import java.util.Scanner;
+    public class Prime
+    {
     static boolean PrimeCheck(int num) 
     {
         for(int i = 2; i <= num/2; i++) 
@@ -16,7 +15,7 @@ public class Prime
         return true;
     }
     
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         boolean prime;
         int num;
