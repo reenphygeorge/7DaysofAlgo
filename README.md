@@ -7,6 +7,8 @@ of June.
 
 ## Live Updates
 - [Challenge One](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%201) is officially Live!
+- [Challenge Two](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%202) is Live!
+- TIme for submission for Challenge One extended to June 23 4PM.
 
 ## I have a doubt. What do I do?
 You three options here:
