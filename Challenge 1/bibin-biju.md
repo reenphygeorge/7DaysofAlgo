@@ -1,4 +1,6 @@
 # CODE
+
+```c
 #include<stdio.h>
 
 #include<stdbool.h>
@@ -44,6 +46,7 @@ bool primeChecker(int number)
     } 
     return true; 
 }
+```
 
 # EXPLANATION
 We are able to check whether a number is a prime number or not unless it's a positive number. So the first prime number starts from 2 and goes on. If one enters 0 or 1, I've used a simple if condition out of the function definition as it's much easier. I've used the boolean conditions using <stdbool.h> header file and defined the user defined function, "primeChecker" out of main function by using function prototype ahead of main function.
