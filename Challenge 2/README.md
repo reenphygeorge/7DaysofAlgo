@@ -1,15 +1,21 @@
 # Challenge 2: Spell it out.
 ## Problem Statement 
 
->  Implement a pure function that takes a whole number as an argument
->  and returns the number in words. For eg. 26 would return a string ‘twenty six’.
+    Implement a pure function that takes a whole number as an argument/input and returns the number in words.      
+	eg: 26 would return a string ‘twenty six’.  
 
-Feel free to use one of fllowing languages:
+    The program should be able to handle input atleast till 999 (in the hundreds range)       
+	output: ‘nine hundred ninety nine’
+
+Code that can handle larger inputs are also welcome :smiley: 
+
+## Feel free to use one of following languages:
 - C
 - C++
 - Java
-- JavaScript
+- JavaScript/Typescript
 - Python
+- go
 
 ## Example Code Template
 
