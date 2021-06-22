@@ -1,16 +1,21 @@
-# Challenge 1: Am I prime or not?
+# Challenge 2: Spell it out.
 ## Problem Statement 
 
->  Implement a pure function which takes a natural number as an input and returns
->  logical `true` if the said number is a prime number and logical `false`
->  otherwise.
+    Implement a pure function that takes a whole number as an argument/input and returns the number in words.      
+	eg: 26 would return a string ‘twenty six’.  
 
-Feel free to use one of fllowing languages:
+    The program should be able to handle input atleast till 999 (in the hundreds range)       
+	output: ‘nine hundred ninety nine’
+
+Code that can handle larger inputs are also welcome :smiley: 
+
+## Feel free to use one of following languages:
 - C
 - C++
 - Java
-- JavaScript
+- JavaScript/Typescript
 - Python
+- go
 
 ## Example Code Template
 
@@ -19,29 +24,29 @@ These are a few example starter templates in a few languages that you can use.
 ```c
 #include <stdio.h>
 
-int isPrime (int num){
+int spellit (int num){
   // Your function Implementation 
 }
 
 int main() {
-	isPrime(7);
+	spellit(7);
 return 0;
 }
 ```
 - Javascript:
 ```javascript
-const isPrime = () => {
+const spellIt = () => {
 	// Your function implementation
 }
 
-isPrime(7) // function call
+spellIt(7) // function call
 ```
 - Python
 ```python
-def is_prime():
+def spell_it():
     # Your function implementation
 
-print is_prime(7)
+print spell_it(7)
 ```
 
 ## Submission
