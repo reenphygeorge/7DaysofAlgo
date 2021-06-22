@@ -9,10 +9,8 @@ def is_prime(number):
         return("Invalid input! Enter a natural number.")
     elif(number==1):
         return("1 is neither a prime nor a composite number.")
-    elif(number==2):
-        return(True)
     else:
-        for i in range(2, number//2):
+        for i in range(2, (number//2)+1):
             if(number%i == 0):
                 return(False)
         return(True)            
@@ -30,4 +28,4 @@ Prime number is a number that is divisible only by itself and 1.
    * If the entered ```number``` is 2 or greater than 2 then that ```number``` is divided by numbers ranging from 2 to ```number```//2. 
    
      If the ```number``` when divided by any numbers in the range, the remainder is equal to zero then **logical false** is the output. 
-     Else, loop is exited and hence the remainder of the ```number``` when divided by any numbers in the range is not equal to zero then **logical true** is given as the          output.
+     Else, loop is exited and hence the remainder of the ```number``` when divided by any numbers in the range is not equal to zero then **logical true** is given as the            output.
