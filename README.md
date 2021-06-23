@@ -7,6 +7,8 @@ of June.
 
 ## Live Updates
 - [Challenge One](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%201) is officially Live!
+- [Challenge Two](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%202) is Live!
+- TIme for submission for Challenge One extended to June 23 4PM.
 
 ## I have a doubt. What do I do?
 You three options here:
@@ -25,6 +27,18 @@ You three options here:
   the contest. The submissions will be checked for plagiarism.
 - There will be seven rounds in total (1 challenge a day). 
 - The students will be given 24 hours (4PM to 4PM) to solve the problem.
+- We won't be doing code reviews. If your logic is flawed or if your code has 
+  syntax errors we will not suggest corrections. However you will still be 
+  evaluated for the same. In short Syntax Errors and Logic Errors won't prevent 
+  your submission from getting merged but you will loose points during evaluation. 
+  Just like in a regular competition.
+- However if you do not place your submission in the right folder or move/edit 
+  the Submission Template.md or any other file other than yours, your PR will not 
+  be merged.
+- Using libraries such as stdio.h (C/C++) ,os (Python), Math (JS) etc are totally 
+  fine as they are part of the  standard library but the libraries that requires 
+  you do some form of installation (eg. numpy, num2words, number-to-words etc.) are 
+  not allowed. 
 
 ## Pre-requisites for the contest
 - A Desktop PC/ Laptop.
@@ -33,7 +47,7 @@ You three options here:
 
 ## How to register?
 - You can register for the event at this 
-[link](https://forms.gle/BnNLJ71g7VxeUi8S9).
+[link](https://forms.gle/BnNLJ71g7VxeUi8S9). **(Closed)**
 
 ## Contact links
 - Mail us at [nexus@sjcetpalai.ac.in](mailto:nexus@sjcetpalai.ac.in).
