@@ -32,7 +32,7 @@ print("Enter '2' to covert Binary(Base 2) to Hexadecimal(Base 16) upto 8 bits")
 c=int(input("Enter your choice: "))
 if c==1 or c==2:    # Checks if user entered invalid choice
     n=input("Enter the number: ")    # Recieves a number from user
-    to_hex(n,c)  
+    to_hex(n,c)    # Calling the function   
 else:
     print("\nInvalid choice.\nPlease try again.") 
 ```
