@@ -26,7 +26,7 @@ print(to_hex(number, choice))
 
 ```
 # Explanation
-1. User enters the ```choice```. Choices avaliable:
+1. User enters the ```choice```. Choices avaliable are:
    * Convert base 2 (binary) format to base 16.
    * Convert base 10 (decimal) format to base 16.
 2. User enters the ```number``` to be converted.
