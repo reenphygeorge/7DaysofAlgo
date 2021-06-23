@@ -4,19 +4,46 @@
 # Code
 ```python
 def spell_it(number):
-    from num2words import num2words
-    words=num2words(number)
-    words=words.replace(",","")
-    words=words.replace("-"," ")
-    return(words)
-    
+    dict1={0: 'Zero', 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten', 11: 'Eleven', 12: 'Twelve', 13: 'Thirteen',14: 'Fourteen', 15: 'Fifteen', 16: 'Sixteen', 17: 'Seventeen', 18: 'Eighteen',19: 'Nineteen', 20: 'Twenty', 30: 'Thirty', 40: 'Forty', 50: 'Fifty', 60: 'Sixty',70: 'Seventy', 80: 'Eighty', 90: 'Ninety'}
+    length=len(str(number))
+    if(number in dict1.keys()):
+        return(dict1[number])
+    elif(length==2):
+        return(dict1[(number//10)*10] + " " + dict1[(number%10)])
+    elif(length==3):
+        marker=str(number)
+        if(marker[1]=="0" and marker[2]=="0"):
+            return(dict1[(number//100)] + " " + "Hundred")
+        elif(marker[1]=="0"):
+            return(dict1[(number//100)] + " " + "Hundred"+" and" + " " + dict1[(number%10)])
+        elif(marker[2]=="0"):
+            return(dict1[(number//100)] + " " + "Hundred"+" and" + " " + dict1[(number%100)])
+        elif((number%100)>=11 and (number%100)<=19):
+            return(dict1[(number//100)] + " " + "Hundred"+" and" + " " + dict1[(number%100)])
+        else:
+            marker=str(number)
+            marker=marker[1]
+            return(dict1[(number//100)] + " " + "Hundred"+ " " + "and" + " " +dict1[(int(marker))*10]+  " "  + dict1[(number%10)])
+    else:
+        return("Invalid input!Enter a number in the range 0 - 999.")
+        
 
-number=int(input("Spell it out.\n Enter the whole number whose words needed:"))
+
+number=int(input("Spell it out.\n Enter the whole number (0-999) whose words needed:"))
 print(spell_it(number))
 ```
 # Explanation
 1. User enters the ```number``` whose words need to be displayed.
 2. Entered ```number``` is passed to the function and now the function **spell_it** is called.
 3. Inside the function **spell_it** the following happens :
-   * The module **num2words** is imported. Module should be installed before the execution of the code for the module to work.
-   * To get the output in the format as given in the question **replace()** is used. So "-" and "," is removed in the output returned. 
+   * If ```number``` is in dict1.keys() corresponding value is returned.
+   * If length of ```number``` is 2 ```//``` and ```%``` operators are used to get the desired output.
+   * If length of ```number``` is 3 certain cases are considered.
+     Last two digits are zero.
+     Middle digit is zero.
+     Last digit is zero.
+     Last two digits are between 11 and 19.
+     All other cases.
+     
+     Using ```//``` and ```%``` operators required output is generated.
+   * If a number not in the range 0 - 999 is entered **Invalid input!Enter a number in the range 0 - 999** is returned.
