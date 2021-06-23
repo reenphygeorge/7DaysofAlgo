@@ -21,7 +21,6 @@ def spell_it(number):
         elif((number%100)>=11 and (number%100)<=19):
             return(dict1[(number//100)] + " " + "Hundred"+" and" + " " + dict1[(number%100)])
         else:
-            marker=str(number)
             marker=marker[1]
             return(dict1[(number//100)] + " " + "Hundred"+ " " + "and" + " " +dict1[(int(marker))*10]+  " "  + dict1[(number%10)])
     else:
