@@ -1,4 +1,4 @@
-# Challenge 2: Base to Hex.
+# Challenge 3: Base to Hex.
 ## Problem Statement 
 
     Implement a pure function that takes a whole number in either base 2 or base 10 format and converts it to base 16.
