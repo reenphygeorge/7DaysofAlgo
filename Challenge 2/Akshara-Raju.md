@@ -1,7 +1,6 @@
 # Code
 ```
 #Python Code
-
 def spell_it(number):
     length = len(number)
     number = int(number)
@@ -9,7 +8,6 @@ def spell_it(number):
     tens_digit = ['','','Twenty','Thirty','Fourty','Fifty','Sixty','Seventy','Eighty','Ninety']
     if number == 100:
         return('One Hundred')
-
     if number < 20:
         return(num_digit[number])
     elif number< 1000:
@@ -25,16 +23,9 @@ def spell_it(number):
                 return(num_digit[number//100]+' '+'Hundred'+' '+tens_digit[copy2%10]+' '+num_digit[number%10])
     elif number>999:
         return("Enter a number less than 1000")        
-
-
 number = input('Enter a whole number (0-999):')
 print(spell_it(number))
-
-
-
   
-
-
 ```
 
 # Explanation
