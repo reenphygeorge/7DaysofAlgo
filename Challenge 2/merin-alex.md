@@ -64,9 +64,9 @@ else:
 * The function `spell_it()` is declared and input from the user(any number between 0 and 999) is passed to the function
 * A dictionary `dict_ref` is used to store some selected numbers and its corresponding word representation as key-value pairs that is inevitable for spelling the numbers between 0 and 999
 * If the input number is 0, then "zero" is displayed 
-* The input number is split as digits and length of numbers is found using `len()`
-  * Depending on the length of the input number, mathethematical operation is performed and 
-    the function `spell_it()` is recursively called and accordingly the numbers are mapped to the word representation of the numbers in `dict_ref`
+* The input number is split as digits and length of the input number is found using `len()`
+  * Depending on the length of the input number, mathethematical operations are performed on digits based on its position and 
+    the function `spell_it()` is recursively called and accordingly, numbers are mapped to the word representation of the numbers in `dict_ref`
 
  
  ## Output
