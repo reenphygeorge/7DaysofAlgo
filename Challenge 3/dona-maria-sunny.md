@@ -36,4 +36,4 @@ print(to_hex(number, choice))
    * If ```choice``` is 2 base 16 of **decimal input** is returned.
    * If wrong choice is entered **"Invalid choice entered. Please enter '1' or '2'"** is returned.
    
-   Also here, **try except** is used to return that the number entered is not a **whole number** in the **base** chosen by the user.
+   Also here, **try except** is used to prevent error due to invalid entry of ```number``` and return that the number entered is not a **whole number** in the **base** chosen    by the user.
