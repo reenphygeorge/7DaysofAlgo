@@ -79,25 +79,32 @@ int numToText(int num)
          temp2-=temp1;
          wording(temp2);
          wording(p);
-         temp2=temp2*(p/10);
-         num=num-temp1*p-temp2;
+         num=num-temp2*p-temp1*p;
          c-=2;d-=2;
+         p/=10;
         }
+        temp=num/p;
+        if(num==0)
+        break;
         wording(temp);
         cout<<" ";
         wording(p);
-        cout<<" AND ";
         num=num-temp*p;
-        d--;c--;
+        if(num==0)
+        break;
+        cout<<" AND ";
+        c--;d--;
         p=pow(10.0,d);
+        if(c<=2)
+        break;
     }  
  if(c==2)
     {
         error =wording(num);
         if (error=='f')
         {
-        temp1=num/p;
-        temp1*=p;
+        temp1=num/10;
+        temp1*=10;
         wording(temp1);
         num-=temp1;
         c--;d--;p=pow(10.0,d);
