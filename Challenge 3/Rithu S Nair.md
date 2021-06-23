@@ -1,6 +1,6 @@
 //code
 
-'''python
+```python
 
 def to_hex(choice):
     if choice==1:
@@ -13,6 +13,8 @@ def to_hex(choice):
            print("please enter a valid choice")
 print("1.Binary\n2.Decimal")           
 to_hex(int(input("Enter your choice:")))
+
+```
 
 //Explanation
 
