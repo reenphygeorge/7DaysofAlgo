@@ -39,10 +39,10 @@ else:
 
 # Explanation
 In this program, user can convert a base 2 or base 10 number to base 16 number.
-<p>This program has 2 choices
-  * Decimal to Hexadecimal
-  * Binary to Hexadecimal
-In case of Decimal, the number is directly converted to Hexadecimal using hex() function.
-In case of Binary, the number is converted to Decimal and then to Hexadecimal using hex() function.</p>
+<p> <br/>This program has 2 choices
+   <br/>* Decimal to Hexadecimal
+   <br/>* Binary to Hexadecimal
+ <br/>In case of Decimal, the number is directly converted to Hexadecimal using hex() function.
+ <br/>In case of Binary, the number is converted to Decimal and then to Hexadecimal using hex() function.</p>
  <br/>Thank you
 
