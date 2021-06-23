@@ -1,4 +1,4 @@
-//code
+#code
 def isPrime(n):
     if n <= 1:
         return False
@@ -10,7 +10,7 @@ def isPrime(n):
 n=int(input("enter a number"))
 print(isPrime(n))
 
-//EXPLANATION
+#EXPLANATION
 
 *if the number entered is less than or equal to  1 then we get FALSE as output
 *if the remainder of the number entered is equal to 0 we get false as output
