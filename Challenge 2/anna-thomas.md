@@ -2,9 +2,9 @@ Code:
 ```c
 import java.util.Scanner;
 
-public class Spelling{
+public class Main{
 public static void main(String[] args) {
-	System.out.println("Enter the number: ");
+	System.out.println("Enter the number(maximum 4 digits): ");
 	Scanner sc=new Scanner(System.in);
 	int n=sc.nextInt();
 	spellNum(n);
@@ -21,11 +21,11 @@ static void spellNum(int x) {
 		switch(count) {
 		case 4:
 			printnum(temp.charAt(i-1));
-			System.out.print(" Thousand ");
+			System.out.print("Thousand ");
 			break;
 		case 3:
 			printnum(temp.charAt(i-1));
-			System.out.print(" Hundred ");
+			System.out.print("Hundred ");
 			break;
 		case 2:
 			if (temp.charAt(i-1)=='1') {
