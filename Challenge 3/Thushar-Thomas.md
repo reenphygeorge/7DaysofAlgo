@@ -44,5 +44,5 @@ In this program, user can convert a base 2 or base 10 number to base 16 number.
    <br/>* Binary to Hexadecimal
   <br/><br/>In case of Decimal, the number is directly converted to Hexadecimal using hex() function.
  <br/>In case of Binary, the number is converted to Decimal and then to Hexadecimal using hex() function.</p>
- Thank you
+  <br/>Thank you
 
