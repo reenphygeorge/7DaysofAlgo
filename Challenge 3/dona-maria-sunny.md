@@ -30,9 +30,10 @@ print(to_hex(number, choice))
    * Convert base 2 (binary) format to base 16.
    * Convert base 10 (decimal) format to base 16.
 2. User enters the ```number``` to be converted.
-3. Both  ```choice``` and ```number``` is passed to the function and now the function **to_hex()** is called. Following happens inside the function:
+3. Both  ```choice``` and ```number``` is passed to the function and now the function **to_hex()** is called. 
+4. Following happens inside the function:
    * If ```choice``` is 1 base 16 of **binary input** is returned.
-   * If ```choice``` is 2 base 16 of **decimal** is returned.
-   * If wrong choice is entered **Invalid choice entered. Please enter '1' or '2'** is returned.
+   * If ```choice``` is 2 base 16 of **decimal input** is returned.
+   * If wrong choice is entered **"Invalid choice entered. Please enter '1' or '2'"** is returned.
    
    Also here, **try except** is used to return that the number entered is not a **whole number** in the **base** chosen by the user.
