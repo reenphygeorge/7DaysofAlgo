@@ -4,9 +4,35 @@
 ##### Language used: Python 3
 # Code
 ```python
+def to_hex(number,choice):
+    try:
+        if(choice==1):
+            binaryNumber=int(number,2)
+            return(hex(binaryNumber)[2:].upper())
+        elif(choice==2):
+            decimalNumber=int(number)
+            return(hex(decimalNumber)[2:].upper())
+        else:
+            return("Invalid choice entered. Please enter '1' or '2' ")
+
+    except:
+        return("Error! You entered a wrong number. Please enter a whole number in base 2 or 10.")
+
+
+print("Base to Hex.\n OPTIONS AVAILABLE ARE:\n 1.Convert base 2 (binary) format to base 16. \n 2.Convert base 10 (decimal) format to base 16.")
+choice=int(input("Enter your choice:"))
+number=input("Enter the number to be converted:")
+print(to_hex(number, choice))
 
 ```
 # Explanation
-1. User enters the ```number``` whose words need to be displayed.
-2. Entered ```number``` is passed to the function and now the function **spell_it** is called.
-3. 
+1. User enters the ```choice```. Choices avaliable:
+   * Convert base 2 (binary) format to base 16.
+   * Convert base 10 (decimal) format to base 16.
+2. User enters the ```number``` to be converted.
+3. Both  ```choice``` and ```number``` is passed to the function and now the function **to_hex()** is called. Following happens inside the function:
+   * If ```choice``` is 1 base 16 of **binary input** is returned.
+   * If ```choice``` is 2 base 16 of **decimal** is returned.
+   * If wrong choice is entered **Invalid choice entered. Please enter '1' or '2'** is returned.
+   
+   Also here, **try except** is used to return that the number entered is not a **whole number** in the **base** chosen by the user.
