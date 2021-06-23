@@ -74,16 +74,26 @@ int numToText(int num)
          p/=10;
          temp1=temp2=num/p;
          wording(temp1);
-         temp1/=10;
-         temp1*=10;
-         wording(temp1);
+         if((num-temp1*p==0||num-temp2*p==0)&&(temp1<20||temp2<20))
+         wording(p);
+         else 
+         {
+             if(temp1%10!=0)
+         {
+             temp1/=10;
+             temp1*=10;
+             wording(temp1);
+         }
          temp2-=temp1;
          wording(temp2);
          wording(p);
          num=num-temp2*p-temp1*p;
          c-=2;d-=2;
          p/=10;
+         }
         }
+        if (num-temp1*p==0||num-temp2*p==0)
+        break;
         if(c==5||c==7)
         goto reiterate;
         temp=num/p;
@@ -95,6 +105,7 @@ int numToText(int num)
         num=num-temp*p;
         if(num==0)
         break;
+        if(c==3)
         cout<<" AND ";
         c--;d--;
         p=pow(10.0,d);
@@ -144,3 +155,4 @@ int main()
 * *main()*:gets input from the user and calls wording(),numToText() accordingly.
 
 P.S:I'll admit that this program might not be efficient and probably will need changes.😞
+As a shortcoming it displays text or spells out numbers only till 9 digits.
