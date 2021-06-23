@@ -10,39 +10,39 @@ int wording(int num)
   char error='t';
     switch(num)
     {
-        case 1:cout<<" ONE";break; 
-        case 2:cout<<" TWO";break;
-        case 3:cout<<" THREE";break;
-        case 4:cout<<" FOUR";break;
-        case 5:cout<<" FIVE";break;
-        case 6:cout<<" SIX";break;
-        case 7:cout<<" SEVEN";break;
-        case 8:cout<<" EIGHT";break;
-        case 9:cout<<" NINE";break;
-        case 10:cout<<" TEN";break;
+        case 1:cout<<" ONE ";break; 
+        case 2:cout<<" TWO ";break;
+        case 3:cout<<" THREE ";break;
+        case 4:cout<<" FOUR ";break;
+        case 5:cout<<" FIVE ";break;
+        case 6:cout<<" SIX ";break;
+        case 7:cout<<" SEVEN ";break;
+        case 8:cout<<" EIGHT ";break;
+        case 9:cout<<" NINE ";break;
+        case 10:cout<<" TEN ";break;
         
-        case 11:cout<<"ELEVEN";break;
-        case 12:cout<<"TWELVE";break;
-        case 13:cout<<"THIRTEEN";break;
-        case 14:cout<<"FOURTEEN";break;
-        case 15:cout<<"FIFTEEN";break;
-        case 16:cout<<"SIXTEEN";break;
-        case 17:cout<<"SEVENTEEN";break;
-        case 18:cout<<"EIGHTEEN";break;
-        case 19:cout<<"NINETEEN";break;
+        case 11:cout<<"ELEVEN ";break;
+        case 12:cout<<"TWELVE ";break;
+        case 13:cout<<"THIRTEEN ";break;
+        case 14:cout<<"FOURTEEN ";break;
+        case 15:cout<<"FIFTEEN ";break;
+        case 16:cout<<"SIXTEEN ";break;
+        case 17:cout<<"SEVENTEEN ";break;
+        case 18:cout<<"EIGHTEEN ";break;
+        case 19:cout<<"NINETEEN ";break;
 
-        case 20:cout<<"TWENTY";break;
-        case 30:cout<<"THIRTY";break;
-        case 40:cout<<"FOURTY";break;
-        case 50:cout<<"FIFTY";break;
-        case 60:cout<<"SIXTY";break;
-        case 70:cout<<"SEVENTY";break;
-        case 80:cout<<"EIGHTY";break;
-        case 90:cout<<"NINETY";break;
-        case 100:cout<<"HUNDRED";break;
-        case 1000:cout<<"THOUSAND";break;
-        case 100000:cout<<"LAKHS";break;
-        case 10000000:cout<<"CRORES";break;
+        case 20:cout<<" TWENTY ";break;
+        case 30:cout<<" THIRTY ";break;
+        case 40:cout<<" FOURTY ";break;
+        case 50:cout<<" FIFTY ";break;
+        case 60:cout<<" SIXTY ";break;
+        case 70:cout<<" SEVENTY ";break;
+        case 80:cout<<" EIGHTY ";break;
+        case 90:cout<<" NINETY ";break;
+        case 100:cout<<" HUNDRED ";break;
+        case 1000:cout<<" THOUSAND";break;
+        case 100000:cout<<" LAKHS ";break;
+        case 10000000:cout<<" CRORES";break;
         default:error='f';
     }
     return(error);
@@ -68,7 +68,8 @@ int numToText(int num)
     {
         temp1,temp,temp2=0;
         temp=num/p;
-        if (c==5||c==7)
+        reiterate:
+        if (c==5||c==7||c==9)
         {
          p/=10;
          temp1=temp2=num/p;
@@ -83,6 +84,8 @@ int numToText(int num)
          c-=2;d-=2;
          p/=10;
         }
+        if(c==5||c==7)
+        goto reiterate;
         temp=num/p;
         if(num==0)
         break;
