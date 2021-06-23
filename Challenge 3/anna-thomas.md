@@ -1,5 +1,5 @@
 Code 
-```c
+```java
 import java.util.Scanner;
 
 public class ToHexa {
