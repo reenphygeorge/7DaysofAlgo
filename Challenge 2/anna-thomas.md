@@ -2,9 +2,9 @@ Code:
 ```c
 import java.util.Scanner;
 
-public class Main{
+public class Spelling{
 public static void main(String[] args) {
-	System.out.println("Enter the number(maximum 4 digits): ");
+	System.out.println("Enter the whole number(maximum 4 digits): ");
 	Scanner sc=new Scanner(System.in);
 	int n=sc.nextInt();
 	spellNum(n);
