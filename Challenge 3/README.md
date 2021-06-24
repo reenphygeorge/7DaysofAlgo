@@ -1,16 +1,15 @@
-# Challenge 1: Am I prime or not?
+# Challenge 3: Base to Hex.
 ## Problem Statement 
 
->  Implement a pure function which takes a natural number as an input and returns
->  logical `true` if the said number is a prime number and logical `false`
->  otherwise.
+    Implement a pure function that takes a whole number in either base 2 or base 10 format and converts it to base 16.
 
-Feel free to use one of fllowing languages:
+## Feel free to use one of following languages:
 - C
 - C++
 - Java
-- JavaScript
+- JavaScript/Typescript
 - Python
+- go
 
 ## Example Code Template
 
@@ -19,34 +18,34 @@ These are a few example starter templates in a few languages that you can use.
 ```c
 #include <stdio.h>
 
-int isPrime (int num){
+int tohex (int num){
   // Your function Implementation 
 }
 
 int main() {
-	isPrime(7);
+	tohex(7);
 return 0;
 }
 ```
 - Javascript:
 ```javascript
-const isPrime = () => {
+const toHex = () => {
 	// Your function implementation
 }
 
-isPrime(7) // function call
+toHex(1011) // function call
 ```
 - Python
 ```python
-def is_prime():
+def to_hex():
     # Your function implementation
 
-print is_prime(7)
+print to_hex(243)
 ```
 
 ## Submission
 
-- Fork the 7 Days of Algorithm 
+- Update and sync your personal repo with 7 Days of Algorithm 
   [GitHub repo](https://github.com/nexussjcet/7DaysofAlgo).
 - Add your submission as a markdown file that includes your code and 
   an explanation of your code to `Challenge 1` folder. You can use this
