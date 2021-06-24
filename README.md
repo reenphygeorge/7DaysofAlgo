@@ -10,6 +10,7 @@ of June.
 - [Challenge Two](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%202) is Live!
 - TIme for submission for Challenge One extended to June 23 4PM.
 - [Challenge Three](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%303) is Live!
+- We've closed over a 100 PRs! 🥳
 
 ## I have a doubt. What do I do?
 You three options here:
