@@ -1,4 +1,4 @@
-# Challenge 3: Sort Me.
+# Challenge 4: Sort Me.
 ## Problem Statement 
 
     Implement a pure function that takes an array of numbers as an argument and return the array sorted. The sorting must be done through the merge sort algorithm
