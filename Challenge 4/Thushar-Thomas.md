@@ -54,6 +54,6 @@ else:
 In this program, user can enter an array with elements upto 20 elements.
 <p> <br/>Then the array is sorted using Merge sort method.
     <br/>Merge sort uses divide and conquer method. The array is divided into half again and the half is again halved, till it form an array with 1 element.
-   <br/>The last array is compared with it's other half and both the arrays are stored and then merged.
+   <br/>The last array is compared with it's other half and both the arrays are sorted and then merged.
    
 <br/>Thank you
