@@ -18,3 +18,12 @@ print("Cipher: "+encrypt(S,n))
 ```
 
 # Explanation
+ -Enter the string to be cipher,enter the shift .
+ -for a range of length of entered string:
+ ```
+ if (char.isupper()):
+			res+= chr((ord(char)+n-65)%26+65)
+		else:
+			res+= chr((ord(char)+n-97)%26+97)
+ ```
+ -Return the cipher string 
