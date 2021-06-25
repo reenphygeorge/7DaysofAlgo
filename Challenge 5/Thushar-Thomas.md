@@ -39,7 +39,7 @@ print("\nEncrypted Text: " + ceaser(text,shift))    # Calling Function
 #### In this program, user can enter a word and convert to ceasar cipher upto 25 shift.
 <p> <br/>The word is converted into letters. Each letter is then converted to it's ASCII value and the shift is added to it.
     <br/>Then the ASCII value with shift is converted back to letter. Then those letters are converted to a word.
-   <br/>Error fixed: If the shift results in exceeding of ASCII value from the alphabet range to symbol range, it violates the rules of ceasar cipher.
+   <br/><br/>Error fixed: If the shift results in exceeding of ASCII value from the alphabet range to symbol range, it violates the rules of ceasar cipher.
   <br/>The program ensures that the ASCII value do not exceed the alphabet range
    
 <br/>Thank you
