@@ -1,0 +1,73 @@
+# Code
+
+```
+
+ Java 
+
+import java.util.*;
+
+public class CaesarCipher
+
+{
+
+	static String cipher(String s,int k)	{
+
+		String c=" ";
+
+		for(int i=0;i<s.length();i++)
+
+		{
+
+			if (s.charAt(i)==' ')
+
+				continue;
+
+			else
+
+			{
+
+				c= Character.toString((char) ((int)(s.charAt(i))+k));
+
+				s= s.substring(0,i)+c+s.substring(i+1);
+
+			}
+
+		}
+
+		return (s);
+
+	}
+
+	public static void main(String[] args)
+
+	{
+
+		Scanner sc= new Scanner(System.in);
+
+		System.out.println("Enter String to be encrypted");
+
+		String s= sc.nextLine();
+
+		System.out.println("Enter Key value");
+
+		int k= sc.nextInt();
+
+		System.out.println(cipher(s,k));
+
+		sc.close(); 
+
+	}
+
+}
+
+			
+
+```
+
+# Explanation
+
+The function takes is character from the string, convert it into its corresponding ASCII code.
+
+The ASCII code number is then increased with the key value.
+
+Then it is converted back into the character format and replaced in the string
