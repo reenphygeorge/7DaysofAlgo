@@ -14,3 +14,10 @@ print("Your planet will have",+days,"days in a year and a leap year every",+leap
 ```
 
 # Explanation
+ - Enter the number of days,hours and the hours in a day.
+ - calculate the number of leap year by dividing day hours with hours.
+ - put c=1
+ - while leap<1
+    - leap= leap we got * c
+    - increment c
+ - print the result
