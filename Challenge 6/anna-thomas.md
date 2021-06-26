@@ -1,6 +1,5 @@
 Code:
 ```java
-package javaAlg;
 import java.util.Scanner;
 
 public class YearLeap {
