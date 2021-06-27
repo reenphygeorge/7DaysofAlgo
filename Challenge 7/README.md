@@ -1,4 +1,4 @@
-# Challenge 6: Factors and Multiples.
+# Challenge 7: Factors and Multiples.
 ## Problem Statement 
 
     Write a pure function that take two numbers as an input and finds the 
