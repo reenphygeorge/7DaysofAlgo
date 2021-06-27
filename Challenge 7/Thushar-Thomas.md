@@ -55,6 +55,6 @@ small_lar(num1,num2)    # Calling the function
           * **If both numbers are equal:** It returns the number itself as it's factor and multiple.
           * **If one of the number is zero:** Returns '0' is not a factor or multiple of any number.
           * **If one or both number is prime:** Returns '1' as the largest factor and the product of the two numbers as multiple.
-          * **If non of the above:** The program uses 'for' loop to find it's largest factor and "product/factor" as the multiple.
+          * **If non of the above:** The program uses 'for' loop to find it's largest factor and "product/factor" as the multiple.</p>
 <br/>Thank you
 
