@@ -24,3 +24,7 @@ public static void year_calculator(int days,int hour,int per_day) {
 
 
 }
+
+
+### explanation
+in this program each extra hours inthe year are taken and divided by the hours in a day to get the count of leap year
