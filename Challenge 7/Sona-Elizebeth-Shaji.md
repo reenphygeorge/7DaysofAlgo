@@ -13,3 +13,14 @@ print("The largest number:",+gcd(a,b))
 print("The smallest number:",+lcm(a,b))
 print("The product of both numbers:",+(gcd(a,b)*lcm(a,b)))
 ```
+
+# Explanation
+- Enter the numbers.
+- find the largest number :
+   - if second number=0
+      - return first number
+   - else:
+      - return largest number
+- find the smallest number:
+    - by dividing b with gcd and then multiply with a
+- find the product by multiplying lcm with gcd
