@@ -1,5 +1,5 @@
 # Code
-```
+```python
 def hcf_and_lcm(x,y):
     no1,no2=x,y
     while(y):
