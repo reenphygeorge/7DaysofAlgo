@@ -1,8 +1,6 @@
 # Code
 
-```
-
- Java 
+```java 
 
 import java.util.*;
 
