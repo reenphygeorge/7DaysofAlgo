@@ -32,3 +32,7 @@ public class Main {
 
 # Explanation
 - This code is used to find Largest number that completely divides both numbers and the smallest number that is the product of both numbersm. ie, in simpler terms HCF and LCM of the provided two numbers.
+- To find HCF of firstNumber and secondNumber, we find remainder of the two numbers. The values are updated with temporary variables. This is repeated until temp2 becomes zero. The value of a when temp2 = 0, is the GCD of firstNumber and secondNumber.
+- To find the LCM of the two numbers, we use lcm = (first*second) / hcf .
+- The values of 'hcf' and 'lcm' are printed.
+
