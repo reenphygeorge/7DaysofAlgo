@@ -4,6 +4,8 @@
 which is to introduce problem solving through algorithms to the students. 
 The event is scheduled to happen between 21<sup>st</sup> June to 21<sup>th</sup>
 of June. 
+## Results
+The results will be published within the week.
 
 ## Live Updates
 - [Challenge One](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%201) is officially Live!
@@ -16,6 +18,8 @@ of June.
 - [Challenge Six](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%206) is Live!
 - [Challenge Seven](https://github.com/nexussjcet/7DaysofAlgo/tree/main/Challenge%207) is Live!
 - We've closed more than 200 PRs! 🥳
+- We've completed the last day's challenge 🥳! Congrats Everyone!
+- 200+ PRs and 500+ commits later the contest comes to a close.
 
 ## I have a doubt. What do I do?
 You three options here:
